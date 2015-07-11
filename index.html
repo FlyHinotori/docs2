@@ -81,11 +81,13 @@
 							- 131 Dateien, ~10650 LOC
 						</script>
 					</section>
+				</section>
 
-					<section>
-						<img data-src="img/GitHub-Pulse.png" width="75%" style="border:0px">
-					</section>
+				<section>
+					<img data-src="img/GitHub-Pulse.png" width="65%" style="border:0px">
+				</section>
 
+				<section>
 					<section data-markdown>
 						<script type="text/template">
 							### Probleme bei der WUApp
@@ -128,10 +130,37 @@
 
 				<section>
 					<h2>TechStack</h2>
+					<section>
+						<img data-src="img/TechStack.png" width="75%" style="border:0px">
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							XAML Page
+							```xml
+							<Page <!---->
+							    <Grid>
+							        <DataGrid <!----> ItemsSource="{Binding}" <!----> IsReadOnly="True">
+							            <DataGrid.Columns>
+							                <DataGridTextColumn Binding="{Binding knd_id}" Header="KndNr""/>
+							                <DataGridTextColumn Binding="{Binding kng_id}" Header="kng_id"/>
+											<!--...-->
+							            </DataGrid.Columns>
+							        </DataGrid>
+							    </Grid>
+							</Page>
+							```
+						</script>
+					</section>
 				</section>
 
 				<section>
 					<h2>Architektur und Componenten</h2>
+				</section>
+
+				<section>
+					<h2>Demo-Time</h2>
+					<img data-src="img/Startscreen.png" width="65%" style="border:0px">
 				</section>
 			</div>
 
